@@ -1,0 +1,59 @@
+from memory.unsafe import Pointer
+from algorithm import vectorize, parallelize
+from math import min, max
+from tensor import Tensor
+
+struct ImageBuffer:
+    var width: Int
+    var height: Int
+    var channels: Int
+    var data: Pointer[UInt8]
+    
+    fn __init__(inout self, width: Int, height: Int, channels: Int):
+        self.width = width
+        self.height = height
+        self.channels = channels
+        self.data = unsafe.allocate[UInt8](width * height * channels)
+    
+    fn __del__(owned self):
+        unsafe.deallocate(self.data)
+
+@value
+struct ImageProcessor:
+    var memory_manager: MultiGPUMemoryManager
+    
+    fn __init__(inout self):
+        self.memory_manager = MultiGPUMemoryManager()
+    
+    @parallelize
+    fn resize(self, src: ImageBuffer, target_width: Int, target_height: Int) -> ImageBuffer:
+        var dst = ImageBuffer(target_width, target_height, src.channels)
+        # TODO: Implement parallel resize algorithm
+        return dst
+    
+    @vectorize
+    fn normalize(self, inout buffer: ImageBuffer):
+        let size = buffer.width * buffer.height * buffer.channels
+        for i in range(size):
+            buffer.data[i] = buffer.data[i] / 255
+    
+    fn to_tensor(self, buffer: ImageBuffer) -> Tensor:
+        # TODO: Implement conversion to tensor for ML models
+        return Tensor(buffer.data, [buffer.height, buffer.width, buffer.channels])
+    
+    @parallelize
+    fn apply_preprocessing(self, inout buffer: ImageBuffer):
+        self.normalize(buffer)
+        # TODO: Add more preprocessing steps (contrast enhancement, noise reduction)
+    
+    fn detect_edges(self, buffer: ImageBuffer) -> ImageBuffer:
+        # TODO: Implement Sobel edge detection
+        return buffer
+    
+    fn enhance_contrast(self, buffer: ImageBuffer) -> ImageBuffer:
+        # TODO: Implement contrast enhancement
+        return buffer
+    
+    fn denoise(self, buffer: ImageBuffer) -> ImageBuffer:
+        # TODO: Implement denoising
+        return buffer
