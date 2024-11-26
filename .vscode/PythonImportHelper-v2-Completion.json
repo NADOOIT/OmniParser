@@ -1,0 +1,1026 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFont",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "Omniparser",
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "isExtraImport": true,
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "isExtraImport": true,
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "Omniparser",
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "isExtraImport": true,
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "isExtraImport": true,
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "jax",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jax",
+        "description": "jax",
+        "detail": "jax",
+        "documentation": {}
+    },
+    {
+        "label": "jax.numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jax.numpy",
+        "description": "jax.numpy",
+        "detail": "jax.numpy",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "Detections",
+        "importPath": "supervision.detection.core",
+        "description": "supervision.detection.core",
+        "isExtraImport": true,
+        "detail": "supervision.detection.core",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "importPath": "supervision.draw.color",
+        "description": "supervision.draw.color",
+        "isExtraImport": true,
+        "detail": "supervision.draw.color",
+        "documentation": {}
+    },
+    {
+        "label": "ColorPalette",
+        "importPath": "supervision.draw.color",
+        "description": "supervision.draw.color",
+        "isExtraImport": true,
+        "detail": "supervision.draw.color",
+        "documentation": {}
+    },
+    {
+        "label": "DetectionModel",
+        "importPath": "ultralytics.nn.tasks",
+        "description": "ultralytics.nn.tasks",
+        "isExtraImport": true,
+        "detail": "ultralytics.nn.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "load_file",
+        "importPath": "safetensors.torch",
+        "description": "safetensors.torch",
+        "isExtraImport": true,
+        "detail": "safetensors.torch",
+        "documentation": {}
+    },
+    {
+        "label": "gradio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gradio",
+        "description": "gradio",
+        "detail": "gradio",
+        "documentation": {}
+    },
+    {
+        "label": "base64,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64.",
+        "description": "base64.",
+        "detail": "base64.",
+        "documentation": {}
+    },
+    {
+        "label": "check_ocr_box",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_yolo_model",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_caption_model_processor",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_som_labeled_img",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_som_labeled_img",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_ocr_box",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_caption_model_processor",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_dino_model",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_yolo_model",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "AzureOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "easyocr",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "easyocr",
+        "description": "easyocr",
+        "detail": "easyocr",
+        "documentation": {}
+    },
+    {
+        "label": "PaddleOCR",
+        "importPath": "paddleocr",
+        "description": "paddleocr",
+        "isExtraImport": true,
+        "detail": "paddleocr",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "box_convert",
+        "importPath": "torchvision.ops",
+        "description": "torchvision.ops",
+        "isExtraImport": true,
+        "detail": "torchvision.ops",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "ToPILImage",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "supervision",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "supervision",
+        "description": "supervision",
+        "detail": "supervision",
+        "documentation": {}
+    },
+    {
+        "label": "OmniParserBenchmark",
+        "kind": 6,
+        "importPath": "tests.benchmark_omniparser",
+        "description": "tests.benchmark_omniparser",
+        "peekOfCode": "class OmniParserBenchmark:\n    def __init__(self, base_config=None):\n        self.base_config = base_config if base_config else config.copy()\n        self.results = {}\n        self.parser = Omniparser(self.base_config)\n        # Create test directory if it doesn't exist\n        self.test_dir = Path(__file__).parent / 'test_images'\n        self.test_dir.mkdir(exist_ok=True)\n        # Create test images if they don't exist\n        self.create_test_suite()",
+        "detail": "tests.benchmark_omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "tests.benchmark_omniparser",
+        "description": "tests.benchmark_omniparser",
+        "peekOfCode": "def main():\n    # Run benchmarks\n    benchmark = OmniParserBenchmark()\n    print(\"Running real-world scenario benchmark...\")\n    benchmark.benchmark_real_world_scenarios()\n    print(\"Running batch size benchmark...\")\n    benchmark.benchmark_batch_sizes()\n    print(\"Running threshold benchmark...\")\n    benchmark.benchmark_thresholds()\n    print(\"Running cache benchmark...\")",
+        "detail": "tests.benchmark_omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "TestOmniParser",
+        "kind": 6,
+        "importPath": "tests.test_omniparser",
+        "description": "tests.test_omniparser",
+        "peekOfCode": "class TestOmniParser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"Set up test resources\"\"\"\n        cls.test_config = config.copy()\n        cls.test_config.update({\n            'batch_size': 16,\n            'cache_models': True,\n            'BOX_TRESHOLD': 0.05\n        })",
+        "detail": "tests.test_omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "ActionType",
+        "kind": 6,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "class ActionType(enum.IntEnum):\n    # Placeholders for unused enum values\n    UNUSED_0 = 0\n    UNUSED_1 = 1\n    UNUSED_2 = 2\n    UNUSED_8 = 8\n    UNUSED_9 = 9\n    ########### Agent actions ###########\n    # A type action that sends text to the emulator. Note that this simply sends\n    # text and does not perform any clicks for element focus or enter presses for",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "is_tap_action",
+        "kind": 2,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "def is_tap_action(normalized_start_yx,\n                  normalized_end_yx):\n  distance = jnp.linalg.norm(\n      jnp.array(normalized_start_yx) - jnp.array(normalized_end_yx))\n  return distance <= _SWIPE_DISTANCE_THRESHOLD\ndef _is_non_dual_point_action(action_type):\n  return jnp.not_equal(action_type, ActionType.DUAL_POINT)\ndef _check_tap_actions_match(\n    tap_1_yx,\n    tap_2_yx,",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "check_actions_match",
+        "kind": 2,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "def check_actions_match(\n    action_1_touch_yx,\n    action_1_lift_yx,\n    action_1_action_type,\n    action_2_touch_yx,\n    action_2_lift_yx,\n    action_2_action_type,\n    annotation_positions,\n    tap_distance_threshold = _TAP_DISTANCE_THRESHOLD,\n    annotation_width_augment_fraction = ANNOTATION_WIDTH_AUGMENT_FRACTION,",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "action_2_format",
+        "kind": 2,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "def action_2_format(step_data):\n    # 把test数据集中的动作格式转换为计算matching score的格式\n    action_type = step_data[\"action_type_id\"]\n    if action_type == 4:\n        if step_data[\"action_type_text\"] == 'click':  # 点击\n            touch_point = step_data[\"touch\"]\n            lift_point = step_data[\"lift\"]\n        else:  # 上下左右滑动\n            if step_data[\"action_type_text\"] == 'scroll down':\n                touch_point = [0.5, 0.8]",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "pred_2_format",
+        "kind": 2,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "def pred_2_format(step_data):\n    # 把模型输出的内容转换为计算action_matching的格式\n    action_type = step_data[\"action_type\"]\n    if action_type == 4:  # 点击\n        action_type_new = 4\n        touch_point = step_data[\"click_point\"]\n        lift_point = step_data[\"click_point\"]\n        typed_text = \"\"\n    elif action_type == 0:\n        action_type_new = 4",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "pred_2_format_simplified",
+        "kind": 2,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "def pred_2_format_simplified(step_data):\n    # 把模型输出的内容转换为计算action_matching的格式\n    action_type = step_data[\"action_type\"]\n    if action_type == 'click' :  # 点击\n        action_type_new = 4\n        touch_point = step_data[\"click_point\"]\n        lift_point = step_data[\"click_point\"]\n        typed_text = \"\"\n    elif action_type == 'scroll' and step_data[\"direction\"] == 'down':\n        action_type_new = 4",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "_TAP_DISTANCE_THRESHOLD",
+        "kind": 5,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "_TAP_DISTANCE_THRESHOLD = 0.14  # Fraction of the screen\nANNOTATION_WIDTH_AUGMENT_FRACTION = 1.4\nANNOTATION_HEIGHT_AUGMENT_FRACTION = 1.4\n# Interval determining if an action is a tap or a swipe.\n_SWIPE_DISTANCE_THRESHOLD = 0.04\ndef _yx_in_bounding_boxes(\n    yx, bounding_boxes\n):\n  \"\"\"Check if the (y,x) point is contained in each bounding box.\n  Args:",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "ANNOTATION_WIDTH_AUGMENT_FRACTION",
+        "kind": 5,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "ANNOTATION_WIDTH_AUGMENT_FRACTION = 1.4\nANNOTATION_HEIGHT_AUGMENT_FRACTION = 1.4\n# Interval determining if an action is a tap or a swipe.\n_SWIPE_DISTANCE_THRESHOLD = 0.04\ndef _yx_in_bounding_boxes(\n    yx, bounding_boxes\n):\n  \"\"\"Check if the (y,x) point is contained in each bounding box.\n  Args:\n    yx: The (y, x) coordinate in pixels of the point.",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "ANNOTATION_HEIGHT_AUGMENT_FRACTION",
+        "kind": 5,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "ANNOTATION_HEIGHT_AUGMENT_FRACTION = 1.4\n# Interval determining if an action is a tap or a swipe.\n_SWIPE_DISTANCE_THRESHOLD = 0.04\ndef _yx_in_bounding_boxes(\n    yx, bounding_boxes\n):\n  \"\"\"Check if the (y,x) point is contained in each bounding box.\n  Args:\n    yx: The (y, x) coordinate in pixels of the point.\n    bounding_boxes: A 2D int array of shape (num_bboxes, 4), where each row",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "_SWIPE_DISTANCE_THRESHOLD",
+        "kind": 5,
+        "importPath": "util.action_matching",
+        "description": "util.action_matching",
+        "peekOfCode": "_SWIPE_DISTANCE_THRESHOLD = 0.04\ndef _yx_in_bounding_boxes(\n    yx, bounding_boxes\n):\n  \"\"\"Check if the (y,x) point is contained in each bounding box.\n  Args:\n    yx: The (y, x) coordinate in pixels of the point.\n    bounding_boxes: A 2D int array of shape (num_bboxes, 4), where each row\n      represents a bounding box: (y_top_left, x_top_left, box_height,\n      box_width). Note: containment is inclusive of the bounding box edges.",
+        "detail": "util.action_matching",
+        "documentation": {}
+    },
+    {
+        "label": "ActionType",
+        "kind": 6,
+        "importPath": "util.action_type",
+        "description": "util.action_type",
+        "peekOfCode": "class ActionType(enum.IntEnum):\n  # Placeholders for unused enum values\n  UNUSED_0 = 0\n  UNUSED_1 = 1\n  UNUSED_2 = 2\n  UNUSED_8 = 8\n  UNUSED_9 = 9\n  ########### Agent actions ###########\n  # A type action that sends text to the emulator. Note that this simply sends\n  # text and does not perform any clicks for element focus or enter presses for",
+        "detail": "util.action_type",
+        "documentation": {}
+    },
+    {
+        "label": "BoxAnnotator",
+        "kind": 6,
+        "importPath": "util.box_annotator",
+        "description": "util.box_annotator",
+        "peekOfCode": "class BoxAnnotator:\n    \"\"\"\n    A class for drawing bounding boxes on an image using detections provided.\n    Attributes:\n        color (Union[Color, ColorPalette]): The color to draw the bounding box,\n            can be a single color or a color palette\n        thickness (int): The thickness of the bounding box lines, default is 2\n        text_color (Color): The color of the text on the bounding box, default is white\n        text_scale (float): The scale of the text on the bounding box, default is 0.5\n        text_thickness (int): The thickness of the text on the bounding box,",
+        "detail": "util.box_annotator",
+        "documentation": {}
+    },
+    {
+        "label": "box_area",
+        "kind": 2,
+        "importPath": "util.box_annotator",
+        "description": "util.box_annotator",
+        "peekOfCode": "def box_area(box):\n        return (box[2] - box[0]) * (box[3] - box[1])\ndef intersection_area(box1, box2):\n    x1 = max(box1[0], box2[0])\n    y1 = max(box1[1], box2[1])\n    x2 = min(box1[2], box2[2])\n    y2 = min(box1[3], box2[3])\n    return max(0, x2 - x1) * max(0, y2 - y1)\ndef IoU(box1, box2, return_max=True):\n    intersection = intersection_area(box1, box2)",
+        "detail": "util.box_annotator",
+        "documentation": {}
+    },
+    {
+        "label": "intersection_area",
+        "kind": 2,
+        "importPath": "util.box_annotator",
+        "description": "util.box_annotator",
+        "peekOfCode": "def intersection_area(box1, box2):\n    x1 = max(box1[0], box2[0])\n    y1 = max(box1[1], box2[1])\n    x2 = min(box1[2], box2[2])\n    y2 = min(box1[3], box2[3])\n    return max(0, x2 - x1) * max(0, y2 - y1)\ndef IoU(box1, box2, return_max=True):\n    intersection = intersection_area(box1, box2)\n    union = box_area(box1) + box_area(box2) - intersection\n    if box_area(box1) > 0 and box_area(box2) > 0:",
+        "detail": "util.box_annotator",
+        "documentation": {}
+    },
+    {
+        "label": "IoU",
+        "kind": 2,
+        "importPath": "util.box_annotator",
+        "description": "util.box_annotator",
+        "peekOfCode": "def IoU(box1, box2, return_max=True):\n    intersection = intersection_area(box1, box2)\n    union = box_area(box1) + box_area(box2) - intersection\n    if box_area(box1) > 0 and box_area(box2) > 0:\n        ratio1 = intersection / box_area(box1)\n        ratio2 = intersection / box_area(box2)\n    else:\n        ratio1, ratio2 = 0, 0\n    if return_max:\n        return max(intersection / union, ratio1, ratio2)",
+        "detail": "util.box_annotator",
+        "documentation": {}
+    },
+    {
+        "label": "get_optimal_label_pos",
+        "kind": 2,
+        "importPath": "util.box_annotator",
+        "description": "util.box_annotator",
+        "peekOfCode": "def get_optimal_label_pos(text_padding, text_width, text_height, x1, y1, x2, y2, detections, image_size):\n    \"\"\" check overlap of text and background detection box, and get_optimal_label_pos, \n        pos: str, position of the text, must be one of 'top left', 'top right', 'outer left', 'outer right' TODO: if all are overlapping, return the last one, i.e. outer right\n        Threshold: default to 0.3\n    \"\"\"\n    def get_is_overlap(detections, text_background_x1, text_background_y1, text_background_x2, text_background_y2, image_size):\n        is_overlap = False\n        for i in range(len(detections)):\n            detection = detections.xyxy[i].astype(int)\n            if IoU([text_background_x1, text_background_y1, text_background_x2, text_background_y2], detection) > 0.3:",
+        "detail": "util.box_annotator",
+        "documentation": {}
+    },
+    {
+        "label": "tensor_dict",
+        "kind": 5,
+        "importPath": "weights.convert_safetensor_to_pt",
+        "description": "weights.convert_safetensor_to_pt",
+        "peekOfCode": "tensor_dict = load_file(\"weights/icon_detect/model.safetensors\")\nmodel = DetectionModel('weights/icon_detect/model.yaml')\nmodel.load_state_dict(tensor_dict)\ntorch.save({'model':model}, 'weights/icon_detect/best.pt')",
+        "detail": "weights.convert_safetensor_to_pt",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "weights.convert_safetensor_to_pt",
+        "description": "weights.convert_safetensor_to_pt",
+        "peekOfCode": "model = DetectionModel('weights/icon_detect/model.yaml')\nmodel.load_state_dict(tensor_dict)\ntorch.save({'model':model}, 'weights/icon_detect/best.pt')",
+        "detail": "weights.convert_safetensor_to_pt",
+        "documentation": {}
+    },
+    {
+        "label": "process",
+        "kind": 2,
+        "importPath": "gradio_demo",
+        "description": "gradio_demo",
+        "peekOfCode": "def process(\n    image_input,\n    box_threshold,\n    iou_threshold,\n    use_paddleocr,\n    imgsz\n) -> Optional[Image.Image]:\n    image_save_path = 'imgs/saved_image_demo.png'\n    image_input.save(image_save_path)\n    image = Image.open(image_save_path)",
+        "detail": "gradio_demo",
+        "documentation": {}
+    },
+    {
+        "label": "yolo_model",
+        "kind": 5,
+        "importPath": "gradio_demo",
+        "description": "gradio_demo",
+        "peekOfCode": "yolo_model = get_yolo_model(model_path='weights/icon_detect/best.pt')\ncaption_model_processor = get_caption_model_processor(model_name=\"florence2\", model_name_or_path=\"weights/icon_caption_florence\")\n# caption_model_processor = get_caption_model_processor(model_name=\"blip2\", model_name_or_path=\"weights/icon_caption_blip2\")\nMARKDOWN = \"\"\"\n# OmniParser for Pure Vision Based General GUI Agent 🔥\n<div>\n    <a href=\"https://arxiv.org/pdf/2408.00203\">\n        <img src=\"https://img.shields.io/badge/arXiv-2408.00203-b31b1b.svg\" alt=\"Arxiv\" style=\"display:inline-block;\">\n    </a>\n</div>",
+        "detail": "gradio_demo",
+        "documentation": {}
+    },
+    {
+        "label": "caption_model_processor",
+        "kind": 5,
+        "importPath": "gradio_demo",
+        "description": "gradio_demo",
+        "peekOfCode": "caption_model_processor = get_caption_model_processor(model_name=\"florence2\", model_name_or_path=\"weights/icon_caption_florence\")\n# caption_model_processor = get_caption_model_processor(model_name=\"blip2\", model_name_or_path=\"weights/icon_caption_blip2\")\nMARKDOWN = \"\"\"\n# OmniParser for Pure Vision Based General GUI Agent 🔥\n<div>\n    <a href=\"https://arxiv.org/pdf/2408.00203\">\n        <img src=\"https://img.shields.io/badge/arXiv-2408.00203-b31b1b.svg\" alt=\"Arxiv\" style=\"display:inline-block;\">\n    </a>\n</div>\nOmniParser is a screen parsing tool to convert general GUI screen to structured elements. ",
+        "detail": "gradio_demo",
+        "documentation": {}
+    },
+    {
+        "label": "MARKDOWN",
+        "kind": 5,
+        "importPath": "gradio_demo",
+        "description": "gradio_demo",
+        "peekOfCode": "MARKDOWN = \"\"\"\n# OmniParser for Pure Vision Based General GUI Agent 🔥\n<div>\n    <a href=\"https://arxiv.org/pdf/2408.00203\">\n        <img src=\"https://img.shields.io/badge/arXiv-2408.00203-b31b1b.svg\" alt=\"Arxiv\" style=\"display:inline-block;\">\n    </a>\n</div>\nOmniParser is a screen parsing tool to convert general GUI screen to structured elements. \n\"\"\"\nDEVICE = torch.device('cuda')",
+        "detail": "gradio_demo",
+        "documentation": {}
+    },
+    {
+        "label": "DEVICE",
+        "kind": 5,
+        "importPath": "gradio_demo",
+        "description": "gradio_demo",
+        "peekOfCode": "DEVICE = torch.device('cuda')\n# @spaces.GPU\n# @torch.inference_mode()\n# @torch.autocast(device_type=\"cuda\", dtype=torch.bfloat16)\ndef process(\n    image_input,\n    box_threshold,\n    iou_threshold,\n    use_paddleocr,\n    imgsz",
+        "detail": "gradio_demo",
+        "documentation": {}
+    },
+    {
+        "label": "Omniparser",
+        "kind": 6,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "class Omniparser(object):\n    def __init__(self, config: Dict):\n        self.config = config\n        self.device = config['device']\n        # Load models with caching if enabled\n        if config.get('cache_models', True):\n            self.som_model = get_yolo_model(model_path=config['som_model_path'])\n            self.som_model.to(self.device)\n        # Initialize model cache\n        self._model_cache = {}",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "config = {\n    'som_model_path': 'finetuned_icon_detect.pt',\n    'device': 'cuda' if torch.cuda.is_available() else 'cpu',\n    'caption_model_path': 'Salesforce/blip2-opt-2.7b',\n    'draw_bbox_config': {\n        'text_scale': 0.8,\n        'text_thickness': 2,\n        'text_padding': 3,\n        'thickness': 3,\n    },",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "parser = Omniparser(config)\nimage_path = 'examples/pc_1.png'\n#  time the parser\nimport time\ns = time.time()\nimage, parsed_content_list = parser.parse(image_path)\ndevice = config['device']\nprint(f'Time taken for Omniparser on {device}:', time.time() - s)",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "image_path",
+        "kind": 5,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "image_path = 'examples/pc_1.png'\n#  time the parser\nimport time\ns = time.time()\nimage, parsed_content_list = parser.parse(image_path)\ndevice = config['device']\nprint(f'Time taken for Omniparser on {device}:', time.time() - s)",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "s = time.time()\nimage, parsed_content_list = parser.parse(image_path)\ndevice = config['device']\nprint(f'Time taken for Omniparser on {device}:', time.time() - s)",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "omniparser",
+        "description": "omniparser",
+        "peekOfCode": "device = config['device']\nprint(f'Time taken for Omniparser on {device}:', time.time() - s)",
+        "detail": "omniparser",
+        "documentation": {}
+    },
+    {
+        "label": "get_caption_model_processor",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_caption_model_processor(model_name, model_name_or_path=\"Salesforce/blip2-opt-2.7b\", device=None):\n    if not device:\n        device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n    if model_name == \"blip2\":\n        from transformers import Blip2Processor, Blip2ForConditionalGeneration\n        processor = Blip2Processor.from_pretrained(\"Salesforce/blip2-opt-2.7b\")\n        if device == 'cpu':\n            model = Blip2ForConditionalGeneration.from_pretrained(\n            model_name_or_path, device_map=None, torch_dtype=torch.float32\n        ) ",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_yolo_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_yolo_model(model_path):\n    from ultralytics import YOLO\n    # Load the model.\n    model = YOLO(model_path)\n    return model\n@torch.inference_mode()\ndef get_parsed_content_icon(filtered_boxes, ocr_bbox, image_source, caption_model_processor, prompt=None):\n    to_pil = ToPILImage()\n    if ocr_bbox:\n        non_ocr_boxes = filtered_boxes[len(ocr_bbox):]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_parsed_content_icon",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_parsed_content_icon(filtered_boxes, ocr_bbox, image_source, caption_model_processor, prompt=None):\n    to_pil = ToPILImage()\n    if ocr_bbox:\n        non_ocr_boxes = filtered_boxes[len(ocr_bbox):]\n    else:\n        non_ocr_boxes = filtered_boxes\n    croped_pil_image = []\n    for i, coord in enumerate(non_ocr_boxes):\n        xmin, xmax = int(coord[0]*image_source.shape[1]), int(coord[2]*image_source.shape[1])\n        ymin, ymax = int(coord[1]*image_source.shape[0]), int(coord[3]*image_source.shape[0])",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_parsed_content_icon_phi3v",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_parsed_content_icon_phi3v(filtered_boxes, ocr_bbox, image_source, caption_model_processor):\n    to_pil = ToPILImage()\n    if ocr_bbox:\n        non_ocr_boxes = filtered_boxes[len(ocr_bbox):]\n    else:\n        non_ocr_boxes = filtered_boxes\n    croped_pil_image = []\n    for i, coord in enumerate(non_ocr_boxes):\n        xmin, xmax = int(coord[0]*image_source.shape[1]), int(coord[2]*image_source.shape[1])\n        ymin, ymax = int(coord[1]*image_source.shape[0]), int(coord[3]*image_source.shape[0])",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_overlap",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def remove_overlap(boxes, iou_threshold, ocr_bbox=None):\n    assert ocr_bbox is None or isinstance(ocr_bbox, List)\n    def box_area(box):\n        return (box[2] - box[0]) * (box[3] - box[1])\n    def intersection_area(box1, box2):\n        x1 = max(box1[0], box2[0])\n        y1 = max(box1[1], box2[1])\n        x2 = min(box1[2], box2[2])\n        y2 = min(box1[3], box2[3])\n        return max(0, x2 - x1) * max(0, y2 - y1)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_image",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def load_image(image_path: str) -> Tuple[np.array, torch.Tensor]:\n    transform = T.Compose(\n        [\n            T.RandomResize([800], max_size=1333),\n            T.ToTensor(),\n            T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n    image_source = Image.open(image_path).convert(\"RGB\")\n    image = np.asarray(image_source)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "annotate",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def annotate(image_source: np.ndarray, boxes: torch.Tensor, logits: torch.Tensor, phrases: List[str], text_scale: float, \n             text_padding=5, text_thickness=2, thickness=3) -> np.ndarray:\n    \"\"\"    \n    This function annotates an image with bounding boxes and labels.\n    Parameters:\n    image_source (np.ndarray): The source image to be annotated.\n    boxes (torch.Tensor): A tensor containing bounding box coordinates. in cxcywh format, pixel scale\n    logits (torch.Tensor): A tensor containing confidence scores for each bounding box.\n    phrases (List[str]): A list of labels for each bounding box.\n    text_scale (float): The scale of the text to be displayed. 0.8 for mobile/web, 0.3 for desktop # 0.4 for mind2web",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def predict(model, image, caption, box_threshold, text_threshold):\n    \"\"\" Use huggingface model to replace the original model\n    \"\"\"\n    model, processor = model['model'], model['processor']\n    device = model.device\n    inputs = processor(images=image, text=caption, return_tensors=\"pt\").to(device)\n    with torch.no_grad():\n        outputs = model(**inputs)\n    results = processor.post_process_grounded_object_detection(\n        outputs,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "predict_yolo",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def predict_yolo(model, image_path, box_threshold, imgsz):\n    \"\"\" Use huggingface model to replace the original model\n    \"\"\"\n    # model = model['model']\n    result = model.predict(\n    source=image_path,\n    conf=box_threshold,\n    imgsz=imgsz\n    # iou=0.5, # default 0.7\n    )",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_som_labeled_img",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_som_labeled_img(img_path, model=None, BOX_TRESHOLD = 0.01, output_coord_in_ratio=False, ocr_bbox=None, text_scale=0.4, text_padding=5, draw_bbox_config=None, caption_model_processor=None, ocr_text=[], use_local_semantics=True, iou_threshold=0.9,prompt=None,imgsz=640):\n    \"\"\" ocr_bbox: list of xyxy format bbox\n    \"\"\"\n    TEXT_PROMPT = \"clickable buttons on the screen\"\n    # BOX_TRESHOLD = 0.02 # 0.05/0.02 for web and 0.1 for mobile\n    TEXT_TRESHOLD = 0.01 # 0.9 # 0.01\n    image_source = Image.open(img_path).convert(\"RGB\")\n    w, h = image_source.size\n    # import pdb; pdb.set_trace()\n    if False: # TODO",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_xywh",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_xywh(input):\n    x, y, w, h = input[0][0], input[0][1], input[2][0] - input[0][0], input[2][1] - input[0][1]\n    x, y, w, h = int(x), int(y), int(w), int(h)\n    return x, y, w, h\ndef get_xyxy(input):\n    x, y, xp, yp = input[0][0], input[0][1], input[2][0], input[2][1]\n    x, y, xp, yp = int(x), int(y), int(xp), int(yp)\n    return x, y, xp, yp\ndef get_xywh_yolo(input):\n    x, y, w, h = input[0], input[1], input[2] - input[0], input[3] - input[1]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_xyxy",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_xyxy(input):\n    x, y, xp, yp = input[0][0], input[0][1], input[2][0], input[2][1]\n    x, y, xp, yp = int(x), int(y), int(xp), int(yp)\n    return x, y, xp, yp\ndef get_xywh_yolo(input):\n    x, y, w, h = input[0], input[1], input[2] - input[0], input[3] - input[1]\n    x, y, w, h = int(x), int(y), int(w), int(h)\n    return x, y, w, h\ndef check_ocr_box(image_path, display_img = True, output_bb_format='xywh', goal_filtering=None, easyocr_args=None, use_paddleocr=False):\n    \"\"\"Enhanced OCR detection with viewport recognition\"\"\"",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_xywh_yolo",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_xywh_yolo(input):\n    x, y, w, h = input[0], input[1], input[2] - input[0], input[3] - input[1]\n    x, y, w, h = int(x), int(y), int(w), int(h)\n    return x, y, w, h\ndef check_ocr_box(image_path, display_img = True, output_bb_format='xywh', goal_filtering=None, easyocr_args=None, use_paddleocr=False):\n    \"\"\"Enhanced OCR detection with viewport recognition\"\"\"\n    if easyocr_args is None:\n        easyocr_args = {\n            'paragraph': True,  # Group text into paragraphs\n            'text_threshold': 0.8,  # Slightly reduced threshold for better recall",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_ocr_box",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def check_ocr_box(image_path, display_img = True, output_bb_format='xywh', goal_filtering=None, easyocr_args=None, use_paddleocr=False):\n    \"\"\"Enhanced OCR detection with viewport recognition\"\"\"\n    if easyocr_args is None:\n        easyocr_args = {\n            'paragraph': True,  # Group text into paragraphs\n            'text_threshold': 0.8,  # Slightly reduced threshold for better recall\n            'link_threshold': 0.8,\n            'canvas_size': 2560,  # Increased canvas size for better resolution\n            'mag_ratio': 1.5,\n            'slope_ths': 0.2,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "reader",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "reader = easyocr.Reader(['en'], gpu=torch.cuda.is_available())\npaddle_ocr = PaddleOCR(\n    lang='en',  # other lang also available\n    use_angle_cls=True,  # Enable angle detection for better accuracy\n    use_gpu=torch.cuda.is_available(),\n    show_log=False,\n    max_batch_size=32,  # Reduced batch size for better memory management\n    use_dilation=True,\n    det_db_score_mode='fast',  # Changed to fast mode for better performance\n    rec_batch_num=32,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "paddle_ocr",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "paddle_ocr = PaddleOCR(\n    lang='en',  # other lang also available\n    use_angle_cls=True,  # Enable angle detection for better accuracy\n    use_gpu=torch.cuda.is_available(),\n    show_log=False,\n    max_batch_size=32,  # Reduced batch size for better memory management\n    use_dilation=True,\n    det_db_score_mode='fast',  # Changed to fast mode for better performance\n    rec_batch_num=32,\n    enable_mkldnn=True  # Enable Intel MKL-DNN acceleration if available",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "VIEWPORT_PATTERNS",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "VIEWPORT_PATTERNS = [\n    r'viewport',\n    r'scroll(able)?[\\s-]?(view|area|container)',\n    r'(content|main)[\\s-]?(view|area|container)',\n    r'panel',\n    r'frame',\n    r'window'\n]\nimport time\nimport base64",
+        "detail": "utils",
+        "documentation": {}
+    }
+]

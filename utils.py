@@ -17,18 +17,31 @@ import cv2
 import numpy as np
 # %matplotlib inline
 from matplotlib import pyplot as plt
+import torch
 import easyocr
 from paddleocr import PaddleOCR
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['en'], gpu=torch.cuda.is_available())
 paddle_ocr = PaddleOCR(
     lang='en',  # other lang also available
-    use_angle_cls=False,
-    use_gpu=False,  # using cuda will conflict with pytorch in the same process
+    use_angle_cls=True,  # Enable angle detection for better accuracy
+    use_gpu=torch.cuda.is_available(),
     show_log=False,
-    max_batch_size=1024,
-    use_dilation=True,  # improves accuracy
-    det_db_score_mode='slow',  # improves accuracy
-    rec_batch_num=1024)
+    max_batch_size=32,  # Reduced batch size for better memory management
+    use_dilation=True,
+    det_db_score_mode='fast',  # Changed to fast mode for better performance
+    rec_batch_num=32,
+    enable_mkldnn=True  # Enable Intel MKL-DNN acceleration if available
+)
+
+VIEWPORT_PATTERNS = [
+    r'viewport',
+    r'scroll(able)?[\s-]?(view|area|container)',
+    r'(content|main)[\s-]?(view|area|container)',
+    r'panel',
+    r'frame',
+    r'window'
+]
+
 import time
 import base64
 
@@ -345,7 +358,7 @@ def get_som_labeled_img(img_path, model=None, BOX_TRESHOLD = 0.01, output_coord_
     filtered_boxes = box_convert(boxes=filtered_boxes, in_fmt="xyxy", out_fmt="cxcywh")
 
     phrases = [i for i in range(len(filtered_boxes))]
-    
+
     # draw boxes
     if draw_bbox_config:
         annotated_frame, label_coordinates = annotate(image_source=image_source, boxes=filtered_boxes, logits=logits, phrases=phrases, **draw_bbox_config)
@@ -381,38 +394,68 @@ def get_xywh_yolo(input):
     
 
 
+
 def check_ocr_box(image_path, display_img = True, output_bb_format='xywh', goal_filtering=None, easyocr_args=None, use_paddleocr=False):
+    """Enhanced OCR detection with viewport recognition"""
+    if easyocr_args is None:
+        easyocr_args = {
+            'paragraph': True,  # Group text into paragraphs
+            'text_threshold': 0.8,  # Slightly reduced threshold for better recall
+            'link_threshold': 0.8,
+            'canvas_size': 2560,  # Increased canvas size for better resolution
+            'mag_ratio': 1.5,
+            'slope_ths': 0.2,
+            'ycenter_ths': 0.5,
+            'height_ths': 0.5,
+            'width_ths': 0.5,
+            'add_margin': 0.1,
+        }
+    
+    image = load_image(image_path)
+    
     if use_paddleocr:
-        result = paddle_ocr.ocr(image_path, cls=False)[0]
-        coord = [item[0] for item in result]
-        text = [item[1][0] for item in result]
-    else:  # EasyOCR
-        if easyocr_args is None:
-            easyocr_args = {}
-        result = reader.readtext(image_path, **easyocr_args)
-        # print('goal filtering pred:', result[-5:])
-        coord = [item[0] for item in result]
-        text = [item[1] for item in result]
-    # read the image using cv2
-    if display_img:
-        opencv_img = cv2.imread(image_path)
-        opencv_img = cv2.cvtColor(opencv_img, cv2.COLOR_RGB2BGR)
-        bb = []
-        for item in coord:
-            x, y, a, b = get_xywh(item)
-            # print(x, y, a, b)
-            bb.append((x, y, a, b))
-            cv2.rectangle(opencv_img, (x, y), (x+a, y+b), (0, 255, 0), 2)
-        
-        # Display the image
-        plt.imshow(opencv_img)
+        result = paddle_ocr.ocr(image_path, cls=True)
+        boxes = []
+        texts = []
+        for line in result:
+            if line:
+                box = np.array(line[0]).astype(np.int32)
+                text = line[1][0]
+                confidence = line[1][1]
+                if confidence > easyocr_args.get('text_threshold', 0.8):
+                    boxes.append(box)
+                    texts.append(text)
     else:
+        result = reader.readtext(image, **easyocr_args)
+        boxes = []
+        texts = []
+        for (box, text, confidence) in result:
+            if confidence > easyocr_args.get('text_threshold', 0.8):
+                boxes.append(np.array(box).astype(np.int32))
+                texts.append(text)
+    
+    # Convert boxes to desired format and detect viewports
+    formatted_boxes = []
+    filtered_texts = []
+    is_viewport = []
+    
+    for box, text in zip(boxes, texts):
+        # Check if text indicates a viewport
+        text_lower = text.lower()
+        viewport_match = any(re.search(pattern, text_lower) for pattern in VIEWPORT_PATTERNS)
+        
+        # Convert box coordinates
         if output_bb_format == 'xywh':
-            bb = [get_xywh(item) for item in coord]
-        elif output_bb_format == 'xyxy':
-            bb = [get_xyxy(item) for item in coord]
-        # print('bounding box!!!', bb)
-    return (text, bb), goal_filtering
-
-
-
+            formatted_box = get_xywh(box)
+        else:
+            formatted_box = get_xyxy(box)
+        
+        formatted_boxes.append(formatted_box)
+        filtered_texts.append(text)
+        is_viewport.append(viewport_match)
+    
+    if goal_filtering:
+        # Apply goal-based filtering here if needed
+        pass
+    
+    return filtered_texts, formatted_boxes, is_viewport
